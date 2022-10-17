@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    height:   100vh;
+    background-image: url(images/bg-pattern-top.svg) ,
+                      url(images/bg-pattern-bottom.svg) ;
+    background-repeat: no-repeat;
+    background-position:  top -550px left -750px, right -750px bottom -550px;
+    background-color:  #19A1AE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 100%;
+    width: 326px;
+    height: 374px;
+    border-radius: 15px;
+    background-color:  #FFFFFF;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ 
+.main-photo{
+    width: 326px;
+    height: 140px;
+    border-radius: 15px 15px 0px 0px;
+}
+.victor-photo{
+   
+border-radius: 50%;
+border: 5px solid white;
+ position: absolute;
+ top: 92px;
+ left: 115px;
+ }
+ 
+
+ .circle{
+    color: white;
+ }
+.name-number{
+    display: flex;
+    justify-content: center;
+    margin: 72px 0px 0px 0px;
+ 
+}
+.name{
+   
+    height: 18px;
+width: 104px;
+margin: 0px 8.5px 0px 0px;
+
+
+}
+.number{
+    
+    width: 22px;
+    height: 18px;
+}
+.text1{
+    font-family: 'Kumbh Sans';
+    font-weight: 700;
+Font-style: Bold;
+Font-size: 18px;
+Line-height: 22px;
+Line-height: 100%;
+align: center;
+color:#2E3349;
+
+
+
+}
+.text2{
+    font-family: 'Kumbh Sans';
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+Font-style: regular;
+
+Line-height: 100%;
+align:center;
+
+color: #6B7082;
+}
+.London{
+    height: 14px;
+    width: 50px;
+    left: 42px;
+    top: 31px;
+    border-radius: nullpx;
+    
+
+}
+h2{
+    font-family: Kumbh Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0px;
+text-align: center;
+color:#6B7082;
+}
+hr{
+    width: 326px;
+    height:1px;
+    background-color:#E8E9EC;
+    margin: 28px 0px 0px 0px;
+}
+.last-container{
+    display: flex;
+    margin: 24px 52px 24px 41px;
+  
+    height: 40px;
+width: 233px;
+left: 41px;
+top: 310px;
+border-radius: 0px;
+display: flex;
+justify-content: space-between;
+
+}
+.text3{
+    width: 35px;
+    height: 18px;
+    margin:0px 0px 0px 12px;
+
+}  
+.text5{
+    width:46px;
+    height: 18px;
+} 
+.text7{
+    width:38px;
+    height:18px;
+}
+.text3,
+.text5,
+.text7{
+    font-family: 'Kumbh Sans';
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: center;
+color:#2E3349;
+
+}
+
+.text4,
+.text6,
+.text8{
+    Font family: Kumbh Sans
+Font-style: Regular
+Font-size: 10px
+Line-height: 12px
+Line-height: 100%
+Align: Center
+letter-spacing: 1.5px;
+color:#6B7082;
+}
+@media screen and (min-width: 600px) {
+    body{
+    background-position: left -150px bottom 300px, right -110px top 400px;
+    }
+    
+}
